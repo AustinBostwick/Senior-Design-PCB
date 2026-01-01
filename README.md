@@ -29,7 +29,7 @@ The PCB was designed and produced alongside the glass chip. It was built around 
 
 A **high-voltage driver circuit** was integrated into the PCB and controlled via an **SPI communication line** connected directly to the Arduino.
 <p align="center">
-![PCB high-voltage driver board](PCB%20Diagram.png)
+  <img src="https://github.com/AustinBostwick/Senior-Design-PCB/blob/main/PCB%20Diagram.png">
 </p>
 ---
 
