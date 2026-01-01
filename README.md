@@ -14,7 +14,7 @@ For my senior design project, I worked with one other person to create a **handh
 The glass chip was created using a process called **photolithography**. Photolithography involves printing a pattern onto a material using a photosensitive layer, followed by metal evaporation onto the chip. Any excess metal is then washed away.
 
 This fabrication process required **over nine months** to develop a fully functional chip.
-![Glass chip fabrication process]([glass_chip.jpg](https://github.com/AustinBostwick/Senior-Design-PCB/blob/main/Final%20Diagram.jpg))
+![Glass chip fabrication process](Final%20Diagram.jpg)
 
 ### Glass Chip Composition
 - Chromium
@@ -28,7 +28,7 @@ This fabrication process required **over nine months** to develop a fully functi
 The PCB was designed and produced alongside the glass chip. It was built around an **Arduino-based system**.
 
 A **high-voltage driver circuit** was integrated into the PCB and controlled via an **SPI communication line** connected directly to the Arduino.
-![PCB high-voltage driver board]([pcb_board.png](https://github.com/AustinBostwick/Senior-Design-PCB/blob/main/PCB%20Diagram.png))
+![PCB high-voltage driver board](PCB%20Diagram.png)
 ---
 
 ## Closing Statement
