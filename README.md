@@ -27,9 +27,8 @@ This fabrication process required **over nine months** to develop a fully functi
 
 The PCB was designed and produced alongside the glass chip. It was built around an **Arduino-based system**.
 
-A **high-voltage driver circuit** was integrated into the PCB and controlled via an **SPI communication line** connected directly to the Arduino.
 <p align="center">
-  <img src="https://github.com/AustinBostwick/Senior-Design-PCB/blob/main/PCB%20Diagram.png">
+  <img src="https://github.com/AustinBostwick/Senior-Design-PCB/blob/main/PCBDesign.png">
 </p>
 
 My technical expertise in high-voltage PCB design is demonstrated by my development of an adjustable boost converter for an Electrowetting-on-Dielectric (EWOD) system, which successfully stepped up a 3–5 V input to over 300 V DC. I integrated a serial-to-parallel shift register using MOSI signals to control high-voltage output pins, utilizing logic level shifters to bridge the communication gap between the 3.3 V Teensy 4.0 microcontroller and 5 V hardware requirements. To ensure precision, I designed a resistor feedback network with a multiplexer that allowed for fine-tuned voltage adjustments necessary for creating the electric fields that drive liquid movement.
@@ -39,6 +38,15 @@ In terms of layout, I applied signal integrity principles to minimize noise and 
 My debugging process is systematic and data-driven, involving both hardware-level troubleshooting and architectural optimization. For the second iteration of the PCB, I significantly improved serviceability by adding numerous test points and migrating the architecture to a Teensy 4.0, which streamlined the programming environment and allowed for live serial debugging. When the output voltage exceeded the limits of standard lab oscilloscopes, I utilized multimeters to accurately validate outputs of up to 311 V DC. These iterative design choices resulted in a verified high-voltage system that operated reliably within the intended 60–126 V range, providing a stable foundation for the device's core functionality.
 
 ---
+## Testing and Implementation
+
+During this process, I also designed and tested a 3D-printed case and a method for contacting the EWOD chip. The case in the image is what the final design turned out to be. We were going to make more changes and create a better way of creating contact with the chip, but ran out of time. 
+
+The testing turned out to be good, showing that this small-scale device can be used to move liquid and test those liquid droplets.
+
+<p align="center">
+  <img src="https://github.com/AustinBostwick/Senior-Design-PCB/blob/main/PCB%20Diagram.png">
+</p>
 
 ## Closing Statement
 
