@@ -28,7 +28,9 @@ This fabrication process required **over nine months** to develop a fully functi
 The PCB was designed and produced alongside the glass chip. It was built around an **Arduino-based system**.
 
 A **high-voltage driver circuit** was integrated into the PCB and controlled via an **SPI communication line** connected directly to the Arduino.
+<p align="center">
 ![PCB high-voltage driver board](PCB%20Diagram.png)
+</p>
 ---
 
 ## Closing Statement
