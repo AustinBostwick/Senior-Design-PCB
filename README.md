@@ -20,6 +20,7 @@ This fabrication process required **over nine months** to develop a fully functi
 - Chromium
 - Silver
 - SU-8
+- Two layers of teflon
 - ITO Glass
 - Two layers of double-sided tape
 
